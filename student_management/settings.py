@@ -128,3 +128,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
+ALLOWED_HOSTS = [
+    'student-management-qk46.onrender.com',
+    'localhost',
+
+    '127.0.0.1'
+]
+
